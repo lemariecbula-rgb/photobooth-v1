@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>📸</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Reset button -->
+<button id="reset" title="Reset photobooth">🔄</button>
+
+<h1>say sushi :P</h1>
+
+<!-- Live camera preview -->
+<video id="video" autoplay playsinline></video>
+
+<!-- Previews of captured photos -->
+<div class="previews">
+  <canvas id="shot1"></canvas>
+  <canvas id="shot2"></canvas>
+  <canvas id="shot3"></canvas>
+</div>
+
+<div id="countdown"></div>
+
+<button id="capture">Capture</button>
+<button id="download" disabled>Download</button>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,66 @@
+body {
+  background: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  position: relative;
+}
+
+/* Reset button at top-right */
+#reset {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#reset:hover {
+  transform: rotate(90deg);
+  transition: transform 0.3s;
+}
+
+/* Live camera preview */
+video {
+  width: 320px;
+  height: 240px;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Captured previews */
+.previews {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+canvas {
+  width: 100px;
+  height: 150px;
+  background: #222;
+  border: 2px dashed white;
+  border-radius: 6px;
+}
+
+/* Buttons */
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+/* Countdown numbers */
+#countdown {
+  font-size: 48px;
+  margin: 10px;
+}
